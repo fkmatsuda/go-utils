@@ -3,9 +3,10 @@ package fklogger
 import (
 	"errors"
 	"fmt"
-	"go-utils/fkfile"
-	"go-utils/fksystem"
 	"os"
+
+	"github.com/fkmatsuda/go-utils/fkfile"
+	"github.com/fkmatsuda/go-utils/fksystem"
 )
 
 type fileAppenderWriter struct {

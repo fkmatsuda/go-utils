@@ -2,7 +2,8 @@ package fki18n
 
 import (
 	"fmt"
-	"go-utils/fkstr"
+
+	"github.com/fkmatsuda/go-utils/fkstr"
 )
 
 // LanguageKey is a type definition for a language indentification

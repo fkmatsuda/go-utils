@@ -3,14 +3,15 @@ package fklogger
 import (
 	"errors"
 	"fmt"
-	"go-utils/fkfile"
-	"go-utils/fksystem"
 	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
 	"regexp"
 	"testing"
+
+	"github.com/fkmatsuda/go-utils/fkfile"
+	"github.com/fkmatsuda/go-utils/fksystem"
 )
 
 var (
